@@ -14,7 +14,7 @@
 
 # Includes gcloud (for bq and gsutil), python influxdb client (requires pip), python yaml parser, and jq.
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 RUN apt-get update && apt-get install -y \
     git \
